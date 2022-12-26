@@ -1,0 +1,235 @@
+body{
+    font-family: montserrat;
+}
+#title{
+    background-color: #ff46ff;
+    
+    /* #ff4c68 */
+}
+.img1{
+    width: 75%;
+    /* margin: 2.5rem 1rem 5rem 16rem; */
+    margin: 1rem 0rem 3rem 4.5rem;
+    /* 2 0 5 11 can be used */
+}
+.img2{
+    width: 45%;
+    margin: auto;
+}
+.img3{
+    width: 45%;
+    margin: auto;
+    position: relative; top:-2px;
+}
+.fonts{
+    font-family: "montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin: 2rem 0rem ;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navbar{
+    padding: 0 0 2rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+#features{
+    padding: 6% 15%;
+}
+.feature-box{
+   text-align: center;
+    padding: 5%;
+}
+.h2one{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    padding: 3% 9% 0% 9%;
+    position: relative; top: -20px;
+
+}
+.h3one{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    padding: 3% 9% 0% 9%;
+    position: relative; top: -20px;
+
+}
+h3{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+}
+h4{
+    font-family: "montserrat";
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+margin-left: .3rem;
+padding: 0% 0% 0.5% 0%;
+   /* margin-bottom: -0.8rem; */
+}
+.h4{
+    font-family: "montserrat";
+    font-weight: bold;
+    color: white;
+margin-left: 0.3rem;
+/* padding: 0% 0% 0.5% 0%;   */
+}
+p{
+    font-weight: lighter;
+    color: rgb(87, 134, 137);
+}.fa-solid{
+    color: #e847ba;
+    margin-bottom: 1rem;
+}
+.fa-solid:hover{
+    color: #ff46ff;
+}
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ff46ff;
+    /* background-color: #e847ba; */
+    /* background-color: rgb(0, 200, 255); */
+}
+#pricing{
+    padding: 90px;
+    text-align: center;
+}
+.pricing-colum{
+    padding: 4% 2%;
+}
+.bottom{
+    font-family: "montserrat";
+    color: white;
+     font-weight: bold;
+     font-size: 2.3rem;
+     text-align: center;
+     line-height: 3rem;
+     padding: 3% 15% 0% 15%;
+     position: relative; top: -20px;
+    
+ }
+@media (max-width: 991px ) {
+#title{
+    text-align: center;
+}
+.img1{
+ margin: auto;
+}
+.h2one{
+   font-size: 2rem;
+  
+}
+.bottom{
+font-family: "montserrat";
+font-size: 1.5rem;
+line-height: 1.5;
+text-align: center;
+
+}
+}
+#cta{
+    background-color: black;
+    text-align: center;
+   padding-top: 3%;
+
+
+}
+#footer{
+    background-color: black;
+    text-align: center;
+}
+
+.foot{
+    text-align: center;
+    color: white;
+   padding-bottom: 20px;
+}
+.fa-apple{
+padding-right: 8px;
+}
+.fa-google-play{
+padding-right: 8px;
+}
+/* .carousel {slide('cycle')
+    
+        interval:500
+    } */
+/* slides interval change */
+#contactus{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    position: relative; top: -40px;
+    margin-bottom: 50px;
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+    .form-group{
+        padding: 5px;
+    }
+    .Social-icon{
+        margin: 20px 10px;
+        color: white;
+      
+    }
